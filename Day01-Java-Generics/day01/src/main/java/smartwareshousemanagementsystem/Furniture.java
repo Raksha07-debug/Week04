@@ -1,7 +1,7 @@
 package smartwareshousemanagementsystem;
 
 public class Furniture extends WarehouseItem {
-    Furniture(String name,double price){
+    public Furniture(String name, double price){
         super(name,price);
     }
 

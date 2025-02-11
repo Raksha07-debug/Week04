@@ -2,7 +2,7 @@ package smartwareshousemanagementsystem;
 
 public class Electronics  extends WarehouseItem{
 
-    Electronics(String name, double price) {
+    public Electronics(String name, double price) {
         super(name, price);
     }
 

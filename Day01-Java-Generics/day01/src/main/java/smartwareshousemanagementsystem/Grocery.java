@@ -1,7 +1,7 @@
 package smartwareshousemanagementsystem;
 
 public class Grocery  extends WarehouseItem{
-    Grocery(String name , double price){
+    public Grocery(String name, double price){
         super(name,price);
     }
 
