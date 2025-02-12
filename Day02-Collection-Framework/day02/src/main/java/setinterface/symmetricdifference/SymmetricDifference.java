@@ -9,7 +9,7 @@ public class SymmetricDifference {
         HashSet<Integer> set1 = new HashSet<>(List.of(1, 2, 3));
         HashSet<Integer> set2 = new HashSet<>(List.of(3, 4, 5));
 
-        // Printing the symmetric difference of the two sets
+        // Printing the symmetric difference of the two sets.
         System.out.println("The output will be " + symmetricDifference(set1, set2));
 
     }
