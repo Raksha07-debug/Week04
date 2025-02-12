@@ -24,7 +24,7 @@ public class FindNthElement {
         // Reverse the list
         Collections.reverse(list);
 
-        // Return the Nth element from the reversed list
+        // Return the Nth element from the reversed list.
         return list.get(n - 1);
     }
 }

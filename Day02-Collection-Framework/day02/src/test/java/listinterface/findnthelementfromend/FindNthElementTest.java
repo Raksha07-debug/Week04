@@ -16,7 +16,7 @@ public class FindNthElementTest {
         // Number of positions from the end
         int n = 2;
 
-        // Assert that the result of finding the Nth element from the end is "D"
+        // Assert that the result of finding the Nth element from the end is "D".
         Assertions.assertEquals("D", FindNthElement.result(list, n));
     }
 }
