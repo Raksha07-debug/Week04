@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class FindSubsetTest {
-
+//Testing of subset 
     @Test
     void findsubsetTest(){
         HashSet<Integer> set1 = new HashSet<>(Arrays.asList(2, 3));
