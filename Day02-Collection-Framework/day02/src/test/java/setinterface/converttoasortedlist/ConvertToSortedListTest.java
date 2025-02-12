@@ -1,4 +1,4 @@
-package listinterface.converttoasortedlist;
+package setinterface.converttoasortedlist;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
