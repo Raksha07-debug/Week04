@@ -1,7 +1,6 @@
-package queueinterface;
+package queueinterface.hospitaltriagesystem;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import queueinterface.hospitaltriagesystem.Patient;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
