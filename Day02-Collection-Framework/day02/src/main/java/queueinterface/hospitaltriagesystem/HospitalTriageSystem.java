@@ -9,9 +9,9 @@ public class HospitalTriageSystem {
         // Initialize the priority queue with a custom comparator
         PriorityQueue<Patient> queue = new PriorityQueue<>(new Comparator<Patient>() {
             @Override
-            public int compare(Patient o1, Patient o2) {
+            public int compare(Patient p1, Patient p2) {
                 // Compare patients based on severity (higher severity comes first)
-                return Integer.compare(o2.severity, o1.severity);
+                return Integer.compare(p2.severity, p1.severity);
             }
         });
 
