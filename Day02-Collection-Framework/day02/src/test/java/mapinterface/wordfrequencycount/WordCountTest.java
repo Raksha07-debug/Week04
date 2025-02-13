@@ -33,7 +33,7 @@ public class WordCountTest {
         // Get words from the file
         List<String> actualWords = WordCounter.getWords(filePath);
 
-        // Count word frequency
+        // Count word frequency.
         Map<String, Integer> freqCount = WordCounter.countFrequency(actualWords.toString()); // Fixed method call
 
         // Expected word frequency map

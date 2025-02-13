@@ -36,7 +36,7 @@ import java.util.Map;
                 // Handle any IO exceptions
                 e.printStackTrace();
             }
-            // Return the list of words
+            // Return the list of words.
             return words;
         }
 
