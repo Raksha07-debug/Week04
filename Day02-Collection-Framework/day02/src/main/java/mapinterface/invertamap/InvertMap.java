@@ -14,7 +14,7 @@ public class InvertMap {
             if (invertedMap.containsKey(value)) {
                 invertedMap.get(value).add(key);
             } else {
-                // Otherwise, create a new list and add the key
+                // Otherwise, create a new list and add the key.
                 List<K> keysList = new ArrayList<>();
                 keysList.add(key);
                 invertedMap.put(value, keysList);
