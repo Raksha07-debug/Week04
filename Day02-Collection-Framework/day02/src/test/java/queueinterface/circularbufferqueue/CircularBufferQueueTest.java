@@ -1,4 +1,4 @@
-package circularbufferqueue;
+package queueinterface.circularbufferqueue;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -25,5 +25,5 @@ public class CircularBufferQueueTest {
         Assertions.assertArrayEquals(new int[]{2, 3, 4}, buffer.displayBuffer());
         System.out.println("Buffer after inserting 4: " + java.util.Arrays.toString(buffer.displayBuffer()));
     }
-    
+
 }
