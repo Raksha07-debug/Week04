@@ -1,4 +1,4 @@
-package mapinterface;
+package mapinterface.groupobjectbyproperty;
 
 
 import mapinterface.groupbyproperty.Employee;
