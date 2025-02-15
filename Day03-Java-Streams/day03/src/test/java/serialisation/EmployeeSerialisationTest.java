@@ -13,7 +13,7 @@ class EmployeeSerializationTest {
     @Test
     void testDeserializeEmployees() {
         List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee(1, "Abhihsek", "IT", 50000));
+        employees.add(new Employee(1, "Raksha", "IT", 50000));
         employees.add(new Employee(2, "Muskan", "HR", 60000));
         employees.add(new Employee(3, "Rahul", "Finance", 70000));
         EmployeeSerialization.serializeEmployees(employees);
@@ -25,7 +25,7 @@ class EmployeeSerializationTest {
 
         Employee firstEmployee = deserializedEmployees.get(0);
         assertEquals(1, firstEmployee.getId());
-        assertEquals("Abhihsek", firstEmployee.getName());
+        assertEquals("Raksha", firstEmployee.getName());
         assertEquals("IT", firstEmployee.getDepartment());
         assertEquals(50000, firstEmployee.getSalary());
 
