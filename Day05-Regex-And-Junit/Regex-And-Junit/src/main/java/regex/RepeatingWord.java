@@ -29,6 +29,6 @@ public class RepeatingWord {
         String sampleText = "This is is a repeated repeated word test.";
         Set<String> repeatingWords = findRepeatingWords(sampleText);
 
-        System.out.println("Repeating Words: " + repeatingWords);
+        System.out.println("Repeating Words:" + repeatingWords);
     }
 }
