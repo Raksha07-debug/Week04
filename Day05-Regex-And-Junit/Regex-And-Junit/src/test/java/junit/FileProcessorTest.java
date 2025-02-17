@@ -36,7 +36,7 @@ class FileProcessorTest {
     }
 
     @Test
-    void testReadFromFile_FileNotFound() {
+    void testReadFromFile_FileNotFound(){
         Exception exception = assertThrows(IOException.class, () -> {
             FileProcessor.readFromFile("non_existent_file.txt");
         });
