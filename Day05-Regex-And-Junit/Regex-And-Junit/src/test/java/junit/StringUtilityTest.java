@@ -21,4 +21,5 @@ public class StringUtilityTest {
         String expected="RAKSHA";
         Assertions.assertEquals(expected,StringUtility.toUpperCase(text));
     }
+
 }
