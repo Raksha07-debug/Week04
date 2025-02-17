@@ -3,6 +3,7 @@ import java.util.*;
 import java.util.regex.*;
 
 public class RepeatingWord {
+    //method to find repeating words
     public static Set<String> findRepeatingWords(String text) {
         Set<String> words = new HashSet<>();
         Set<String> repeatingWords = new HashSet<>();
