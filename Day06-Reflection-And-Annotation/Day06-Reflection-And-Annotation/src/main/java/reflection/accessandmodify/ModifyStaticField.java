@@ -11,7 +11,7 @@ public class ModifyStaticField {
 
         System.out.println("Original API_KEY: " + Configure.getApiKey());
 
-        field.set(null, "12899755");
+        field.set(null, "128997552");
 
         System.out.println("Modified API_KEY: " + Configure.getApiKey());
     }
