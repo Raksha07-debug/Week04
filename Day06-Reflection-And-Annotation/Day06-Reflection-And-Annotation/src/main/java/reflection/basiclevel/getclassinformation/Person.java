@@ -1,4 +1,4 @@
-package reflection.getclassinformation;
+package reflection.basiclevel.getclassinformation;
 
 public class Person {
     private  String name;

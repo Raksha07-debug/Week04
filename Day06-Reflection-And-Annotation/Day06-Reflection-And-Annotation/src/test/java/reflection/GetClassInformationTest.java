@@ -2,7 +2,7 @@ package reflection;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import reflection.getclassinformation.GetClassInformation;
+import reflection.basiclevel.getclassinformation.GetClassInformation;
 
 public class GetClassInformationTest {
 
