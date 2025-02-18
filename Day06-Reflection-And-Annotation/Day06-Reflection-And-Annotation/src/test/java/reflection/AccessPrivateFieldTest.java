@@ -1,4 +1,4 @@
-package annotation;
+package reflection;
 import org.junit.jupiter.api.Test;
 import reflection.accessprivatefield.Person;
 
